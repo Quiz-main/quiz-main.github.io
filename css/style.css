@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.quiz-container{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div.rocket-image{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 180px;
+    bottom: 80px;
+}
+
+
+div.lamp-image{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-position: container;
+    background-repeat: no-repeat;
+    top: 90px;
+    right: 200px;
+    transform: rotate(15deg);
+}
+
+div.infos-lvl{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+div.infos-lvl span{
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+div.infos-lvl div.quiz-lvl{
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+    border-radius: 12.5px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.1);
+}
+
+div.infos-lvl div.quiz-lvl div.lvl-line{
+    display: inline-block;
+    width: 0%;
+    height: 13px;
+    border-radius: 12.5px;
+    background-color: white;
+}
+
+div.quiz{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+div.quiz > h2{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+}
+
+div.quiz div.alternatives{
+    width: 100%;
+    margin-top: 120px;
+}
+
+div.quiz div.alternatives div.alternative{
+    width: 90%;
+    height: 70px;
+    line-height: 70px;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #455DE7;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+div.quiz div.alternatives div.alternative:hover{
+    width: 90.5%;
+    height: 70.5px;
+
+}
+
+div.quiz-4{
+    margin-top: 200px;
+}
+
+div.quiz-4 > h2{
+    font-size: 48px;
+}
+
+div.quiz-4 > p{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+div.quiz-4 > div.button-return{
+    width: 90%;
+    height: 70px;
+    line-height: 70px;
+    margin: 45px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #455DE7;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}

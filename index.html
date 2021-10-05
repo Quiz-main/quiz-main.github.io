@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color: #455DE7;">
+        <div class="quiz-container">
+
+            <div class="rocket-image" style="background-image: url('images/rocket.png');"></div><!--rocket-image-->
+            <div class="lamp-image" style="background-image: url('images/lamp.png');"></div><!--lamp-image-->
+
+            <div class="infos-lvl">
+
+                <span id="level">Level 1</span>
+
+                <div class="quiz-lvl">
+                    <div class="lvl-line"></div><!--lvl-line-->
+                </div>
+                <!--quiz-lvl-->
+
+                <span id="hit-quantity">0/3</span><!--hit-quantity-->
+
+            </div>
+            <!--infos-lvl-->
+
+            <div class="quiz quiz-1" style="display: block;">
+
+                <h2>What is the biggest youtube channel in the world?</h2>
+
+                <div class="alternatives">
+
+                    <div class="alternative alternative-f">Justin Bieber</div><!--JB-->
+                    <div class="alternative alternative-f">Pewdiepie</div><!--PDP-->
+                    <div class="alternative alternative-v">T-Series</div><!--TS-->
+
+                </div>
+                <!--alternatives-->
+
+            </div>
+            <!--quiz-1-->
+
+            <div class="quiz quiz-2" style="display: none;">
+
+                <h2>What is the largest social network in the world?</h2>
+
+                <div class="alternatives">
+
+                    <div class="alternative alternative-f">Instagram</div><!--IG-->
+                    <div class="alternative alternative-v">Facebook</div><!--FB-->
+                    <div class="alternative alternative-f">Twitter</div><!--TWT-->
+
+                </div>
+                <!--alternatives-->
+
+            </div>
+            <!--quiz-2-->
+            
+            <div class="quiz quiz-3" style="display: none;">
+
+                <h2>Who is the person with the most followers on Instagram?</h2>
+
+                <div class="alternatives">
+
+                    <div class="alternative alternative-f">Justin Bieber</div><!--JB-->
+                    <div class="alternative alternative-v">Cristiano Ronaldo</div><!--CR-->
+                    <div class="alternative alternative-f">Selena Gomes</div><!--SG-->
+
+                </div>
+                <!--alternatives-->
+
+            </div>
+            <!--quiz-3-->
+
+            <div class="quiz quiz-4" style="display: none;">
+
+                <h2 id="end-title">{End}</h2>
+
+                <p id="end-score">0/3</p>
+
+                <div class="button-return">Play again</div><!--fn-->
+
+            </div>
+            <!--quiz-end-->
+
+
+        </div>
+        <!--quiz-container-->
+
+       <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+       <script src="js/functions.js" type="text/javascript"></script>
+    </body>
+</html>
